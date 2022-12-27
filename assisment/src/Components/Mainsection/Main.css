@@ -1,0 +1,31 @@
+.mainpage {
+    background-color: rgb(216 216 216);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5000fr 5000fr 1fr;
+    font-size: large;
+}
+
+.headingbutton button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.Adopt {
+    background-color: rgb(202, 35, 160);
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    border-radius: 200px;
+    margin-left: 40px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}

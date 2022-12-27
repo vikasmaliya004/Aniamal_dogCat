@@ -1,0 +1,41 @@
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: larger;
+    }
+    
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    
+    .contener {
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+        width: 100%;
+        background-color: rgb(216, 216, 216);
+        color: rgb(39, 3, 39);
+    }
+    
+    .Giveaway {
+        background-color: rgb(193, 214, 207);
+        width: 500px;
+        border: 5px solid black;
+        border-radius: 5px;
+    }
+    
+    .navlink {
+        margin-left: 5px;
+        color: rgb(168, 56, 56);
+        font-size: large;
+        margin-bottom: 5px;
+    }
