@@ -12,14 +12,12 @@ const Giveaway = () => {
        
         <div className="navbar">
      
-     <NavLink to="./" className="navlink" style={({ isActive }) => ({ 
-                            color: isActive ? 'greenyellow' : 'white' })}>
+     <NavLink to="./" className="navlink" >
         DOGS
       </NavLink>
      
 
-      <NavLink to="./" className="navlink" style={({ isActive }) => ({ 
-                            color: isActive ? 'greenyellow' : 'white' })}>
+      <NavLink to="./" className="navlink">
         CATS
       </NavLink>
      <div>

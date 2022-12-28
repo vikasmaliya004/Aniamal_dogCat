@@ -85,7 +85,7 @@ const Footer = () => {
                </div>
                <div className='layout'>
                 <NavLink to="NewForm" className='navlink' style={({ isActive }) => ({ 
-                            color: isActive ? 'greenyellow' : 'white' })} ><span>Contact us</span></NavLink>
+                            color: isActive ? 'greenyellow' : 'white' })} ><span>Contact</span></NavLink>
                             
 
             </div>
